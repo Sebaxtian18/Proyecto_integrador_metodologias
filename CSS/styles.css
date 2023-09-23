@@ -1,0 +1,143 @@
+body {
+    background: papayawhip;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+header {
+    padding: 5px;
+    background: rgb(231, 182, 229);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+header #logo img {
+    width: 100px;
+}
+#encabezado {
+    display: flex;
+    align-self: center;
+    margin-right: 750px;
+    font-size: 45px;
+    color: white;
+}
+header ul{
+    display: flex;
+    align-items: end;
+}
+header ul li{
+    list-style: none;
+    padding-right: 15px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+header ul li a {
+    color: white;
+}
+.fondoinf {
+    position: relative;
+}
+.fondoinf img {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.fondoinf #informacion1 {
+    position: absolute;
+    top: 100px;
+    left: 950px;
+    color: white;
+    width: 400px;
+    font-size: 25px;
+}
+.fondoinf #informacion2 {
+    position: absolute;
+    top: 500px;
+    left: 950px;
+    color: white;
+    width: 400px;
+    font-size: 25px;
+}
+.fondoinf #img1 {
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    width: 350px;
+    height: 250px;
+}
+.fondoinf #img2 {
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    width: 350px;
+    height: 250px;
+}
+.fondoinf #img3 {
+    position: absolute;
+    top: 700px;
+    left: 100px;
+    width: 350px;
+    height: 250px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(231, 182, 229);
+    border-radius: 5px;
+    height: 500px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+div .fondopeinados {
+    position: relative;
+    
+}
+.fondopeinados img{
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 5px;
+}
+.fondopeinados #infopeinados {
+    position: absolute;
+    top: 1700px;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    font-weight: bolder;
+    margin-left: 50px;
+    font-size: 18px;
+}
+.fondopeinados #imgpeinados1 {
+    position: absolute;
+    top: 1650px;
+    margin-left: 1045px;
+    width: 350px;
+    height: 250px;
+}
+.fondopeinados #imgpeinados2 {
+    position: absolute;
+    top: 1975px;
+    margin-left: 545px;
+    width: 350px;
+    height: 250px;
+}
+.fondopeinados #imgpeinados3 {
+    position: absolute;
+    top: 2290px;
+    margin-left: 1045px;
+    width: 350px;
+    height: 250px;
+}
+.fondopeinados #imgpeinados4 {
+    position: absolute;
+    top: 2290px;
+    margin-left: 130px;
+    width: 350px;
+    height: 250px;
+}
